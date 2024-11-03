@@ -1,0 +1,71 @@
+
+
+.details-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 15px;
+  margin-top: 6vh;
+  height: 80vh;
+}
+
+.artist-details {
+  width: 40%; 
+  height: 60vh;
+  margin-left: 4vw;
+
+}
+
+.artist-image {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.button-container2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-left: -100px;
+}
+
+.btn-wishlist,
+.btn-book {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-book {
+  background-color: #4CAF50;
+}
+
+.btn-wishlist:hover,
+.btn-book:hover {
+  background-color: #0056b3;
+}
+
+.feedback-section {
+  width: 30%;
+  margin-left: 140px;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+  

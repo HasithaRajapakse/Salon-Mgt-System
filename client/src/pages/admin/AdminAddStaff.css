@@ -1,0 +1,146 @@
+/* Base styles for the main container */
+.admin-add-staff-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    top: 52px;
+    left: 20vw;
+    background-color: rgb(243, 247, 247);
+    min-width: 80vw;
+  }
+  
+  /* Section for registering staff */
+  .register-staff-section {
+    background-color: #f3f7f7;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 50%; 
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .register-staff-section h1 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .register-staff-section form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-group input[type='file'] {
+    padding: 10px 0;
+  }
+  
+  .form-group input[type='checkbox'] {
+    margin-right: 5px;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
+  
+  /* Styling for the button */
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3; 
+  }
+  
+  
+  .assign-services-section {
+    background-color: #f3f7f7;
+    padding: 20px;
+    width: 50%; 
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .assign-services-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .artist-select,
+  .services-checkboxes {
+    margin-bottom: 15px;
+  }
+  
+  .artist-select label,
+  .services-checkboxes label {
+    font-weight: bold;
+  }
+  
+  .artist-select select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .services-checkboxes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .services-checkboxes label {
+    margin-right: 15px;
+  }
+  
+  .services-checkboxes input[type='checkbox'] {
+    margin-right: 5px;
+  }
+  
+ 
+  .view-assigned-services {
+    margin-top: 20px;
+    width: 50%; 
+    max-width: 800px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .admin-add-staff-container {
+      padding: 10px;
+    }
+  
+    .register-staff-section,
+    .assign-services-section {
+      width: 100%;
+    }
+  }
+  

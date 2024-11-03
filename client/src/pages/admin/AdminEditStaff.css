@@ -1,0 +1,8 @@
+.edit {
+display: flex;
+position: absolute;
+top:52px;
+left:20vw;
+background-color: rgb(243, 247, 247);
+min-width: 80vw;
+}

@@ -1,0 +1,192 @@
+.customer-view-services {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.service-card {
+  width: 300px;
+  border: 1.2px solid #a310a8;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #f1e5f3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s;
+  
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.s1 {
+  background-color: #7f519e;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.service-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+.service-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 10px;
+  color: #f4eef5;
+}
+
+.service-category {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 10px;
+  color: #555;
+}
+
+.service-id {
+  font-size: 0.8rem;
+  margin: 10px;
+  color: #999;
+}
+
+.price-duration-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  font-size: 0.9rem;
+}
+
+.price-container {
+  font-weight: 700;
+  color: #28a745;
+}
+
+.duration-container {
+  display: flex;
+  align-items: center;
+  color: #30035a;
+}
+
+.duration-container svg {
+  margin-right: 5px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 10px;
+}
+
+.btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-seemore {
+  background: linear-gradient(to right, #007bff, #0056b3);
+  height: 40px;
+}
+
+.btn-seemore:hover {
+  background: linear-gradient(to right, #0056b3, #003f7f);
+  transform: scale(1.05);
+}
+
+.btn-wishlist {
+  background: linear-gradient(to right, #ffc107, #e0a800);
+}
+
+.btn-wishlist:hover {
+  background: linear-gradient(to right, #e0a800, #c79100);
+  transform: scale(1.05);
+}
+
+.btn-book {
+  background: linear-gradient(to right, #28a745, #218838);
+  height: 40px;
+}
+
+.btn-book:hover {
+  background: linear-gradient(to right, #218838, #196c2e);
+  transform: scale(1.05);
+}
+
+.new-div {
+  padding: 20px;
+  background-color: #c6b2e7;
+  border-radius: 10px;
+  margin: 20px 0;
+  display: flex;
+  margin-top: -20px;
+  height: 16vh;
+}
+
+.welcome-filter-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.welcome-section, .filter-section {
+  flex: 1;
+  font-family: 'Roboto', sans-serif;
+}
+
+.welcome-section {
+  text-align: left;
+}
+
+.filter-section {
+  text-align: right;
+}
+
+.filter-section form {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter-section label {
+  color: #36023b;
+  font-weight: 400;
+}
+
+.filter-section select {
+  padding: 10px;
+  border: 1px solid #6d0a60;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.filter-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #500c58;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.filter-button:hover {
+  background-color: #36023b;
+  transform: scale(1.05);
+}

@@ -1,0 +1,76 @@
+.customer-view-artists {
+  padding: 20px;
+}
+
+.artists-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+
+}
+
+.artist-card {
+  border: 1px solid #530446;
+  background-color: rgb(235, 228, 236);
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  
+  
+}
+
+.artist-image1 {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.artist-name {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.artist-gender,
+.artist-email {
+  margin: 5px 0;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.btn-seemore,
+.btn-book {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-book {
+  background-color: #4CAF50;
+}
+
+.btn-seemore:hover,
+.btn-book:hover {
+  background-color: #0056b3;
+}
+
+.text1 {
+  background: linear-gradient(135deg, rgb(215, 198, 253) 0%, rgb(61, 6, 87) 100%);
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-top: -36px;
+  height: 6vh;
+  font-size: large;
+  color: rgb(243, 217, 239);
+  
+}

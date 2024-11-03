@@ -1,0 +1,14 @@
+.edit1 {
+display: flex;
+position: absolute;
+top:52px;
+left:20vw;
+background-color: rgb(231, 245, 245);
+min-width: 80vw;
+}
+
+.customers-table {
+  margin-top: 7vh;
+}
+
+  

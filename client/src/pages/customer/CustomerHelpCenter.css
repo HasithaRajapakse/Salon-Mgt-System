@@ -1,0 +1,50 @@
+.help-center-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #520466;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .help-center-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .help-center-main {
+    padding: 20px;
+  }
+  
+  .help-section {
+    margin-bottom: 30px;
+  }
+  
+  .additional-info-section {
+    background-color: #f7e3f8;
+    padding: 15px;
+    border: 1px solid #912eca;
+    border-radius: 5px;
+  }
+  
+  .help-section h2, .additional-info-section h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .help-section ul, .additional-info-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .help-section li, .additional-info-section li {
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .help-center-container {
+      width: 90%;
+    }
+  }
+  

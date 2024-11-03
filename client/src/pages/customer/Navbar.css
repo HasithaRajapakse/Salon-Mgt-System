@@ -1,0 +1,116 @@
+/* Navbar styling */
+.navbar {
+    position: relative; 
+    z-index: 1000; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(40deg, #010010 0%, #070019 4%, #0B011C 8%, #140227 19%, #2C034D 31%, #640366 58%, #7F519B 73%, #842ABA 83%);
+    padding: 10px 50px;
+    height: 8vh;
+    font-weight: 500;
+    margin-bottom: 8px;
+    
+    
+ 
+
+}
+
+
+
+/* Logo container */
+.logo-container {
+    flex: 0.6;
+    padding-left: 10px;
+    padding-right: 0px;
+    margin-top: -4px;
+    
+}
+
+.logo {
+    height: 43px;
+}
+
+/* Navigation links */
+.nav-links {
+    flex: 1.7;
+    display: flex;
+    gap: 1px;
+    transform: translateX(-90px);
+    font-size: small;
+    font-size: 15px;
+    font-family:"Raleway", sans-serif;
+    margin-left: -50px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family:"Raleway", sans-serif;
+    margin-left: 18px;
+}
+
+/* Active link styling */
+.nav-links .active {
+    background-color: #DBC59A;
+    color: #180118;
+    border-collapse: separate;
+    border-radius: 20px;
+    padding: 4px;
+    margin-top: -4px;
+    font-weight: bolder;
+}
+
+/* Search bar */
+.search-bar {
+    flex: 1;
+    transform: translateX(60px);
+    min-width: 30vw;
+    
+    
+}
+
+.search-bar input[type="text"] {
+    width: 65%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgb(16, 2, 2);
+    background-image: linear-gradient(to right, #ECDDC4 0%, #FCFAD4 26%, #C4A677 55%, #FCFAD4 99%);
+}
+
+/* Sign in/sign up button */
+.sign {
+    flex: 0.48;
+    background: linear-gradient(to right, #f6f3ee 0%, #DBC59A 100%);
+    border: none;
+    color: rgb(12, 1, 1);
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 40px;
+    font-size: small;
+    font-family:"Raleway", sans-serif;
+    width: 5px;
+    
+}
+
+.sign:hover {
+    background-color: rgb(224, 216, 216);
+}
+
+.logout {
+    width: 35px;
+    height:28px;
+    cursor: pointer;
+    border-radius: 40px;
+    font-size: small;
+    font-family:"Raleway", sans-serif;
+    background: linear-gradient(to right, #f6f3ee 0%, #DBC59A 100%);
+}
+
+.my-data {
+    margin-right: 5px;
+    
+}

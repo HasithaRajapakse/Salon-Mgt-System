@@ -1,0 +1,82 @@
+.hero-section {
+  display: flex;
+  margin-top: -12px;
+}
+
+.hero-image {
+  flex: 1;
+  background-size: cover;
+  position: relative;
+  margin-top: 4.6px;
+}
+
+.carousel-container {
+  flex: 1;
+  margin-top: 4.6px;
+}
+
+.content-section {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.service-section {
+  display: flex;
+  padding: 20px 0;
+}
+
+.service-column, .artists-column, .feedback-column {
+  flex: 1;
+  padding: 20px;
+  background-color: #e9d6f5;
+  border-radius: 10px;
+  margin: 10px;
+  font-family: 'Roboto', sans-serif; 
+  border: 2px solid #d3c0e0; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.artists-column {
+  background-color: #e2bef8;
+}
+
+.footer {
+  background-color: #343a40;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer .social-icons a {
+  color: #f3eaea;
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+.custom-button {
+  background: linear-gradient(to right, rgb(39, 4, 59), rgb(165, 158, 61)); /* Linear gradient background */
+  border-radius: 20px; 
+  padding: 10px 20px; 
+  color: white; 
+  position: absolute; 
+  width: 140px;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  margin-left: 80px;
+  margin-top: 120px;
+  border: 1px solid white; 
+}
+
+.custom-button:hover {
+  background: linear-gradient(to right, rgb(165, 158, 61), rgb(39, 4, 59)); /* Darker gradient for hover effect */
+}
+
+.Ajith {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8vh; 
+  text-align: center;
+  background-color: rgb(240, 212, 176);
+}
